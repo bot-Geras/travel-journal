@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  font-weight: 400;
+}
+
+section {
+  padding: 20px;
+  
+}
+
+.grey {
+  color: gray;
+}
+
+nav {
+  
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  color: #ffffff;
+  padding: 20px 36px;
+}
+
+.nav--img {
+  max-width: 100px;
+}
+
+.nav--header {
+  font-weight: medium;
+  font-size: 14px;
+}
+
+.card--list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.card {
+  max-width: 600px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 300;
+  color: black;
+}
+
+.card--content {
+  width: auto;
+}
+
+.card--img {
+  width: 100%;
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  background-size: cover;
+
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card--star {
+  height: 10px;
+}
+
+.stat--location {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  
+}
+
+.card--stat_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.card--body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.card--body_destination{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  margin-bottom: 0;
+}
+
+.card--timeline{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+  margin-bottom: 0;
+}
+
+.card--body_description{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  color: #2B283A;
+  margin-bottom: 0;
+}
