@@ -9,7 +9,7 @@ export default function App() {
   const journal = data.map(item => {
     return (
       <Separate
-        />
+       {...item} />
     )
 
   })
